@@ -10,4 +10,6 @@ class Restaurant(models.Model):
     opening_time = models.TimeField(default="00:00:00")
     closing_time= models.TimeField(default="00:00:00")
     created_at = models.DateField(auto_now_add=True)
+    
+
 
